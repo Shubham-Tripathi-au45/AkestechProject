@@ -27,22 +27,23 @@ h1{
   background-color: orange;
   display:block
 }
-.dropdown-menu li {
+/* .dropdown-menu li {
   position: relative;
-  }
-  .dropdown-menu .dropdown-submenu {
-  display: none;
-  position: absolute;
-  left: -100%;
-  top: -7px;
-  }
-  .dropdown-menu .dropdown-submenu-left {
+  } */
+  /* .dropdown-menu .dropdown-submenu {
+  /* display: flex;
+  position: absolute; */
+  
+  
+  /* top: -7px; */
+  
+  /* .dropdown-menu .dropdown-submenu-left {
   right: 100%;
   left: auto;
   }
   .dropdown-menu > li:hover > .dropdown-submenu {
   display: block;
-  }
+  } */
 .App-link {
   color: #61dafb;
 }

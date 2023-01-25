@@ -3,6 +3,15 @@ const contactSchema= new mongoose.Schema({
     name:{
         type:String,
     },
+    lastName:{
+        type:String
+    },
+    address:{
+        type:String
+    },
+    contact:{
+        type:String
+    },
 service:[{
     type:mongoose.Schema.Types.ObjectId,
     ref:"typeofservice"

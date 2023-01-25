@@ -15,7 +15,7 @@ const postContact= async (req,res)=>{
     catch(err){
         res.status(501).send({status:"Cannot sumbit form"})
     }
-    console.log(err)
+    // console.log(err)
 }
 
 //Get Contact
